@@ -13,7 +13,13 @@
     <form class="grocery-form">
       <h3>Grocery List</h3>
       <div class="input-container">
-        <input type="text" id="grocery-input" placeholder="e.g. eggs" />
+        <input 
+        type="text" 
+        name = "grocery"
+        id ="grocery-input" 
+        placeholder="e.g. eggs" 
+        />
+        
         <button type="submit" class="submit-btn">Add</button>
       </div>
     </form>
@@ -29,7 +35,11 @@
 
       <!-- table body: grocery items-->
       <tbody id="table-body"></tbody>
-
+      <!--<tr>
+        <td>Apple</td>
+        <td>1</td>
+        <td>$0</td>
+      </tr>-->
       <!-- table footer: totals -->
       <tfoot>
         <tr>
